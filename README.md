@@ -64,17 +64,34 @@ python3 predict.py --model-path ./models/ensemble_models --test-data-path ./data
 ## [Shared Task A](https://codalab.lisn.upsaclay.fr/competitions/20000#results)
 <img src="assets/3.png" width=500 height=500>
 
-# For Citations
-`Will release later` 
-
-# Status
-## Updating...
-
 # Important Links  
 1. **Shared Task Details**
     - https://codalab.lisn.upsaclay.fr/competitions/20000#learn_the_details
 
 2. **Datasets (Shared Task A, B, C)**
     - https://github.com/therealthapa/chipsal24?tab=readme-ov-file
+
+# For Citations
+@inproceedings{ale-etal-2025-mdsbots,
+    title = "{MDSB}ots@{NLU} of {D}evanagari Script Languages 2025: Detection of Language, Hate Speech, and Targets using {MURT}weet",
+    author = "Ale, Prabhat  and
+      Thapaliya, Anish  and
+      Paudel, Suman",
+    editor = "Sarveswaran, Kengatharaiyer  and
+      Vaidya, Ashwini  and
+      Krishna Bal, Bal  and
+      Shams, Sana  and
+      Thapa, Surendrabikram",
+    booktitle = "Proceedings of the First Workshop on Challenges in Processing South Asian Languages (CHiPSAL 2025)",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2025.chipsal-1.35/",
+    pages = "308--313",
+    abstract = "In multilingual contexts, an automated system for accurate language identification, followed by hate speech detection and target identification, plays a critical role in processing low-resource hate speech data and mitigating its negative impact. This paper presents our approach to the three subtasks in the Shared Task on Natural Language Understanding of Devanagari Script Languages at CHIPSAL@COLING 2025: (i) Language Identification, (ii) Hate Speech Detection, and (iii) Target Identification. Both classical machine learning and multilingual transformer models were explored, where MuRIL Large, trained on undersampled data for subtasks A and B outperformed the classical models. For subtask C, the Hybrid model trained on augmented data achieved superior performance over classical and transformer-based approaches. The top-performing models, named MURTweet for subtasks A and B and NER-MURTweet for subtask C, secured sixth, third, and first rank respectively, in the competition."
+}
+
+
 
 **_MDSBots@2024_**
